@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  student_id: MyString
+  reason: MyText
+  start: 2013-04-01 21:42:34
+  end: 2013-04-01 21:42:34
+  approved: false
+  warden_id: MyString
+  consent: MyString
+  levaddress: MyText
+  phone: MyString
+
+two:
+  student_id: MyString
+  reason: MyText
+  start: 2013-04-01 21:42:34
+  end: 2013-04-01 21:42:34
+  approved: false
+  warden_id: MyString
+  consent: MyString
+  levaddress: MyText
+  phone: MyString

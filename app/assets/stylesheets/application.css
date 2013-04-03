@@ -1,0 +1,329 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+{
+  margin:0;
+  padding:0;
+  font-family:'Helvetica','Arial',sans-serif;
+}
+body
+{
+	margin:0;
+	padding:0;
+}
+.header
+{
+  clear:both;
+  float:left;
+  width:100%;
+  height:165px;
+  border-bottom:#211D70 solid 3px;
+}
+.content
+{
+  background-color:#eee;
+  clear:both;
+  float:left;
+  width:100%;
+  min-height:400px;
+  margin-bottom:10px;
+}
+.footer
+{
+  clear:both;
+  float:left;
+  width:100%;
+}
+.wrapper
+{
+  margin:0 auto;
+  width:1000px;
+  font-size:15px;
+}
+.content .wrapper 
+{
+  background-color:#fff;
+  border:1px solid #ccc; 
+  min-height:378px;
+  padding:10px;
+  overflow:auto;
+}
+#pgTitle
+{
+  float:right;
+  margin:60px 0 0 0 ;
+  font-size:38px;
+  color:#211D70;
+  font-weight:bold;
+}
+.footer p
+{
+  font-size:12px;
+  color:#555;
+}
+.footer a
+{
+  text-decoration:none;
+  color:#555;
+  font-size:12px;
+}
+.footertext{
+  margin:10px 0 0 0px;
+  clear:both;
+  float:left;
+}
+#navwrapper {
+  height:44px;
+  width:100%;
+  margin:auto;
+  margin-top:120px;
+  background: linear-gradient(to bottom, #FFFFFF 0%, #E5E5E5 100%) repeat scroll 0 0 transparent;
+  border-top:1px solid #cecece;
+}
+#navwrapper div {
+width:1000px;
+  margin:auto;
+  border-left:1px solid #cecece;
+}
+#navwrapper ul {
+  list-style: none outside none;
+}
+#navwrapper ul li {
+  float: left;
+  font-family:Arial,Helvetica,sans-serif;
+  color: #211D70;
+  font-size: 13px;
+  height:29px;
+  padding: 15px 20px 0 20px;
+  font-weight:bold;
+  background: linear-gradient(to bottom, #FFFFFF 0%, #E5E5E5 100%) repeat scroll 0 0 transparent;
+  border-right:1px solid #cecece;
+}
+#navwrapper ul li {
+  top:15px;
+}
+#navwrapper ul li:hover {
+  background:#ccc;
+  cursor:pointer;
+}
+#wrapLeft {
+  border-right:1px solid #cecece;
+  width:700px;
+  min-height:378px;
+  float:left;
+}
+#wrapRight {
+  width:289px;
+  float:right;
+  min-height:378px;
+  padding:0 0 10px 0;
+}
+.Head {
+  text-align:center;
+  padding:5px 0 5px 0;
+  margin:0 0 5px 0;
+}
+.HeadLeft {
+  padding:5px 8px 5px 8px;
+  margin:0 0 5px 0;
+}
+.grey {
+  background-color:#E0E0E0;
+}
+.purple {
+  background-color:#524F97;
+  color:white;
+}
+.thin {
+font-weight:400;
+}
+#logLeft {
+  width:80px;
+  float:left;
+  margin:10px 0 0 0;
+}
+#logLeft ul {
+  list-style: none outside none;
+}
+#logLeft ul li{
+  padding:6px 0;
+}
+#logRight {
+  float:right;
+  width:181px;
+  margin:10px 0 15px 0;
+}
+.logRightIn {
+  height:30px;
+}
+#logRight input {
+  border:1px solid grey;
+  outline: none;
+  padding:3px;
+  width:180px;
+}
+.rightBut {
+  color:black;
+  text-decoration:none;
+  padding:6px;
+  border:1px solid #8e8e8e;
+}
+.rightBut:hover {
+  border:1px solid black;
+}
+.butCon {
+  width:80px;
+  padding:10px 0;
+  margin:auto;
+}
+.butcon a {
+  margin:auto;
+}
+.mainOut{
+  padding-right:10px;
+}
+.noticeCon {
+overflow:auto;
+  margin:0 0 15px;
+}
+.noticeCon ul {
+  list-style: none outside none;
+  float:left;
+}
+.noticeCon ul li {
+  margin-top:9px;
+}
+.noticeCon ul li a:hover {
+  color:#211D70 !important;
+}
+.noticeCon ul li a{
+  text-decoration:none;
+  color:black;
+}
+#news {
+  width:100%;
+  min-height:50px;
+  color:white;
+  background-color:#211d70;
+}
+#newsCon {
+  width:1000px;
+  margin:auto;
+  padding:5px 0;
+}
+#newsHead {
+  width:65px;
+  margin:10px;
+  float:left;
+}
+#newsParaCon {
+}
+#banner {
+  margin:auto;
+  height:110px;
+  overflow:hidden;
+    width:1000px;
+}
+#banner img {
+  margin-top:-175px;
+}
+#profImgCon {
+  width:166px;
+  margin:15px auto;
+}
+#profImgCon img{
+  border:10px solid #f5f5f5;
+  outline:1px solid #868686;
+}
+.tableMain {
+  margin:10px 0;
+}
+.leftTD {
+  font-size:14px;
+  line-height:18px;
+  background-color:#f0f0f0;
+  width:150px;
+}
+td {
+  margin:0;
+  padding:0;
+  outline:none;
+}
+.formMain {
+  width:200px;
+  margin:auto;
+}
+.formMain input{
+  float:left;
+  margin:5px;
+  clear:left;
+}
+.radioButCon {
+  margin:15px;
+  padding:5px;
+}
+.radioButCon:hover {
+  background-color:#eee;
+  outline:1px solid black;
+}
+.tableDues {
+  margin:auto;
+}
+.tableDues .leftTD {
+  width:250px;
+}
+.leaveButCon a{
+  color:#333;
+  text-decoration:none;
+}
+.leaveButCon a .radioButCon {
+  width:250px;
+}
+.leaveButCon a:hover {
+  color:#211d70;
+}
+.rightTD input {
+  padding:2px;
+  outline: none;
+}
+.rightTD select {
+  padding: 2px;
+  outline: none;
+  width:80px;
+  height:27px;
+}
+.leaveText textarea {
+  height:40px;
+  padding:4px;
+  width:400px;
+  resize:vertical;
+  outline: none;
+}
+.tableLeaveStat {
+  margin:auto;
+}
+.tableLeaveStat .rightTD {
+  background-color:#FFADAD;
+}
+.tableLeaveStat th,.tableLeaveStat td {
+  width:100px !important;
+}
+.tableLeaveStat .thiCol {
+  background-color:#B5E4FF;
+}
+.tableLeaveStat .secCol {
+  background-color:#FFE39B;
+}
+.branchSel {
+  width:148px !important;
+}

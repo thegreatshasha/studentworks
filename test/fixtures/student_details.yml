@@ -1,0 +1,43 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  student_id: MyString
+  college_id: MyString
+  name: MyString
+  dob: 2013-04-03
+  sex: MyString
+  bloodgroup: MyString
+  mobile: MyString
+  email: MyString
+  fname: MyString
+  mname: MyString
+  feepayingP: MyString
+  relation: MyString
+  pdob: 2013-04-03
+  psex: MyString
+  pmobile: MyString
+  plandline: MyString
+  pmail: MyString
+  hostel: MyString
+  room: MyString
+
+two:
+  student_id: MyString
+  college_id: MyString
+  name: MyString
+  dob: 2013-04-03
+  sex: MyString
+  bloodgroup: MyString
+  mobile: MyString
+  email: MyString
+  fname: MyString
+  mname: MyString
+  feepayingP: MyString
+  relation: MyString
+  pdob: 2013-04-03
+  psex: MyString
+  pmobile: MyString
+  plandline: MyString
+  pmail: MyString
+  hostel: MyString
+  room: MyString

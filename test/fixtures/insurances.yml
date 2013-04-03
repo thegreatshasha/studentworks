@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  policyno: MyString
+  sdate: 2013-04-01
+  edate: 2013-04-01
+  student_id: MyString
+  password: MyString
+  amount: 1
+
+two:
+  policyno: MyString
+  sdate: 2013-04-01
+  edate: 2013-04-01
+  student_id: MyString
+  password: MyString
+  amount: 1

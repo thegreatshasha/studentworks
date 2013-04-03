@@ -1,0 +1,2 @@
+class WardenController < ApplicationController
+end
